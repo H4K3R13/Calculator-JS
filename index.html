@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/main.js" type="text/javascript"></script>
+    <link href="CSS/main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+    <h1>JS-Calculator</h1>
+    </header>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+        <div class="buttons">
+            <button onclick="clearscreen()"    class="button-style"  style="background-color: rgb(6, 165, 238); width: 85%;">Clear</button>
+            <div class="row">
+                
+                <button onclick="num(7)"    class="button-style">7</button>
+                <button onclick="num(8)"    class="button-style">8</button>
+                <button onclick="num(9)"    class="button-style">9</button>
+                <button onclick="num('+')"  class="button-style" style="background-color: rgba(255, 192, 245, 0.521);">+</button>
+            </div>
+            <div class="row">
+                <button onclick="num(4)"   class="button-style">4</button>
+                <button onclick="num(5)"   class="button-style">5</button>
+                <button onclick="num(6)"   class="button-style">6</button>
+                <button onclick="num('-')" class="button-style" style="background-color: rgba(255, 192, 245, 0.521);">-</button>                
+            </div>
+            <div class="row">
+                <button onclick="num(1)"   class="button-style">1</button>
+                <button onclick="num(2)"   class="button-style">2</button>
+                <button onclick="num(3)"   class="button-style">3</button>
+                <button onclick="num('*')" class="button-style" style="background-color: rgba(255, 192, 245, 0.521);">*</button>
+            </div>
+            <div class="row">
+                <button onclick="num(0)"     class="button-style">0</button>
+                <button onclick="num('.')"   class="button-style" style="background-color: rgba(255, 192, 245, 0.521);">.</button>
+                <button onclick="num('/')"   class="button-style" style="background-color: rgba(255, 192, 245, 0.521);">/</button>
+                <button onclick="ans()"      class="button-style" style="background-color: rgb(6, 165, 238);">=</button>
+               
+            </div>
+        </div>
+        
+                
+        </div>
+    </div>
+
+    <footer>
+        Made by <a href="https://github.com/H4K3R13">H4K3R13</a>
+    </footer>
+</body>
+</html>
